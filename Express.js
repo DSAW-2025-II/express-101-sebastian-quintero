@@ -1,11 +1,11 @@
-// Importamos Express
+// Importar Express
 const express = require('express');
 const app = express();
 
 // Puerto del servidor
 const PORT = 3000;
 
-// Simulación de datos de estudiantes (se podría conectar a una BD más adelante)
+// Datos de estudiantes 
 const students = [
   {
     id: "1",
